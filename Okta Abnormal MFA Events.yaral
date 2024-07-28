@@ -1,15 +1,8 @@
 rule Okta_Abnromal_MFA_Events_Detetcted {
-  // This rule matches single events. Rules can also match multiple events within
 
   meta:
-    // Allows for storage of arbitrary key-value pairs of rule details - who
-    // wrote it, what it detects on, version control, etc.
-    // The "author" and "severity" fields are special, as they are used as
-    // columns on the rules dashboard. If you'd like to be able to sort based on
-    // these fields on the dashboard, make sure to add them here.
-    // Severity value, by convention, should be "Low", "Medium" or "High"
     author = "Shyama-Prasad"
-    description = "This rule detcts suspicous MFA(Multi Factor Authentication) Events based on Okta logs"
+    description = "This rule detects suspicous MFA(Multi Factor Authentication) Events based on Okta logs"
     severity = "Medium"
 
 events:
