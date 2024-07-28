@@ -2,7 +2,7 @@ rule Okta_Abnromal_MFA_Events_Detetcted {
 
   meta:
     author = "Shyama-Prasad"
-    description = "This rule detects suspicous MFA(Multi Factor Authentication) Events based on Okta logs"
+    description = "This rule detects suspicious MFA(Multi Factor Authentication) Events based on Okta logs"
     severity = "Medium"
 
 events:
